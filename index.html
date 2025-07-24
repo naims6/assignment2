@@ -381,5 +381,15 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const addToCardBtn = document.querySelectorAll(".btn");
+
+      addToCardBtn.forEach((cart) => {
+        cart.addEventListener("click", () => {
+          alert("Flower Added to Card");
+        });
+      });
+    </script>
   </body>
 </html>
