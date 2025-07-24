@@ -33,3 +33,6 @@ span {
     transform: rotate(360deg);
   }
 }
+.rotate:hover {
+  animation-play-state: paused;
+}
