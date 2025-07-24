@@ -1,0 +1,23 @@
+/* font import from goggle nato sans */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+.noto-font {
+  font-family: "Noto Serif", serif;
+}
+.container {
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+span {
+  color: #e95a08;
+}
+.btn {
+  width: 100%;
+  padding: 14px 0px;
+  background: #e95a08;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
